@@ -1,10 +1,11 @@
 # Algorithm
 
 알고리즘
-## **[문법]
-==========
+문법
+===========
+
 python
-=========
+-------------
 ### **[class]**
 class Person: def init(self): self.finger = 5 self.eye = 2
 
