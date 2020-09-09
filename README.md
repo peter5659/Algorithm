@@ -18,6 +18,12 @@ l1 = listNode() 하면 현재 점이 생기고 next는 없는 하나의 header�
 
 Leet Code
 ====================
-2. Add Two Number
+## 2. Add Two Number
+
+### 사용개념
+
 * [class](#class)
 * [listNode](#listNode) 여기서는 list를 class listNode(self, val =0, next = None): self.val = val self.next = next 로 정의하였음.
+
+### 풀이
+> 두가지 방법으로 풀이 가능(재귀, 반복)
