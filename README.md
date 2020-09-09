@@ -39,6 +39,10 @@ while(what):
 ~~~
 * nodelist class를 만들고 init함수로 노드를 생성해주었다.
 append 함수로 노드를 이어주었고 node에 first와 final을 이용해서 node에 어떠한 변경사항 없이 이어줄 수 있었다.
+<br>
+만든 node객체 자체로 움직이면(node1 = node1->next) 현 위치가 바뀌기 때문에
+<br>
+다른 객체로 접근하는 것이(what -> node1) 좋을듯??
 
 Leet Code
 ====================
