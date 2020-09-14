@@ -60,4 +60,9 @@ Leet Code
 ### 풀이
 > 두가지 방법으로 풀이 가능(재귀, 반복)
 
-## 3. Longest Substring Without Repeating Characters  [(Code)]
+## 3. Longest Substring Without Repeating Characters  [(Code)](https://github.com/peter5659/Algorithm/commit/1d9aba8ce0a1ec48866930cc44f683427be2f862)
+
+### 사용개념
+
+* [string](#string)
+
