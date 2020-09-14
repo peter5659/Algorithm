@@ -6,7 +6,7 @@
 
 python
 -------------
-### **[class]**
+### *[class]*
 class Person: def init(self): self.finger = 5 self.eye = 2
 
 init : a class 객체를 만들면 알아서 호출되는 함수 <br>
