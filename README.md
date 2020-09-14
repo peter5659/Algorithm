@@ -27,6 +27,15 @@ class Person:
 init : a class 객체를 만들면 알아서 호출되는 함수 <br>
 hwan = Person()로 객체생성하면 저절로 hwan.finger = 5, hwan.eye =2 가 된다.
 
+### *[list]*
+type 상관없이 객체들을 모아놓은 것.
+## sorting
+.sort() / sorted(list)로 가능한데 
+가령 tuple들의 집합을 sorting하고 싶다면 <br>
+a = [(1,2), (2,1), (4,6), (3,5)] <br>
+b = sorted(a) <br>
+c = sorted(a, key = lambda x: x[1]) : tuple의 두번째 값을 기준으로 sorting
+
 ### *[ListNode]*
 listNode는 점으로 이어진 list로 현재위치에서의 value와 다음 점(next)에 대한 정보로 나타냄.
 
@@ -96,4 +105,6 @@ python에서 문자열을 다른 언어에 비해 자유롭게 쓸수 있다는 
 문자열이 = " "일때.
 문자열이 반복되는 것이 없을때.(기본형)
 
-## 4. Median of Two Sorted Arrays  (Code) (https://github.com/peter5659/Algorithm/commit/aa57b17e07297617c931b289508312a61d87aba5)
+## 4. Median of Two Sorted Arrays  [(Code)] (https://github.com/peter5659/Algorithm/commit/aa57b17e07297617c931b289508312a61d87aba5)
+### 사용개념
+* [List] (#List) 
