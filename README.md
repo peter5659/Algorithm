@@ -6,13 +6,28 @@
 
 python
 -------------
-### *[class]*
-class Person: def init(self): self.finger = 5 self.eye = 2
+### *[String]*
+python에서 string은 인덱싱, 붙이기, 검색, 삭제가 가능하다.
+string_a = str()로 비어있는 문자열 생성 가능
+string_a = "abcdefg"
+string_a[1:5] = "bcdef"와 같이 일부분을 추출 가능
+string_a = string_b + string_c와 같이 문자열을 이어붙여 새로운 문자열을 만들기도 가능
+즉, 문자열의 길이를 신경 안써도 된다.
+string_a.find('a') = 검색하려는 문자가 존재한다면 인덱스번호, 없다면 -1을 내놓는다.
+len(string_a) : 문자열의 길이
 
+
+### *[Class]*
+~~~python
+class Person: 
+  def init(self):
+    self.finger = 5
+    self.eye = 2
+~~~
 init : a class 객체를 만들면 알아서 호출되는 함수 <br>
-hwan = Person()로 class 를 만들면 hwan.finger = 5, hwan.eye =2 가 된다.
+hwan = Person()로 객체생성하면 저절로 hwan.finger = 5, hwan.eye =2 가 된다.
 
-### **[listNode]*
+### *[ListNode]*
 listNode는 점으로 이어진 list로 현재위치에서의 value와 다음 점(next)에 대한 정보로 나타냄.
 
 l1 = listNode() 하면 현재 점이 생기고 next는 없는 하나의 header가 생기는 것. 
@@ -65,4 +80,18 @@ Leet Code
 ### 사용개념
 
 * [string](#string)
+
+### 풀이
+> 
+python에서 문자열을 다른 언어에 비해 자유롭게 쓸수 있다는 점에서 편하게 생각할 수 있었다.
+문자열 붙이기를 사용하여 반복되지 않은 문자가 추가되었을때는 +로,
+반복된 문자가 추가 되었을때는 []인덱싱으로 추가해주었다.
+>>헷갈린 점
+반복된 문자가 추가되었을 시에 인덱싱 범위를 정해주는 것에서 헷갈렸고 
+처음에 반복된 문자를 지워주었음.
+이후 반복된 문자 뒤에서부터만 챙기면 된다는 것을 깨닫고 .find로 찾은 인덱스 뒤부터 [+1:]로 새로운 문자열을 생성해주었다.
+>>> 꼼꼼해야 할 점
+문자열이 = " "일때.
+문자열이 반복되는 것이 없을때.(기본형)
+
 
