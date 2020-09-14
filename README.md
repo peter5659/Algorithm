@@ -27,7 +27,7 @@ class Person:
 init : a class 객체를 만들면 알아서 호출되는 함수 <br>
 hwan = Person()로 객체생성하면 저절로 hwan.finger = 5, hwan.eye =2 가 된다.
 
-### *[list]*
+### *[List]*
 type 상관없이 객체들을 모아놓은 것.
 ## sorting
 .sort() / sorted(list)로 가능한데 
